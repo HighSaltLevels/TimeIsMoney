@@ -7,13 +7,12 @@ from datetime import datetime, timedelta
 
 class CountMoney(QMainWindow):
 
-    done = False
-    globalCounter = 0
-
     def __init__(self):
 		
         QMainWindow.__init__(self)
         self.initUI()
+        self.done = False
+        self.globalCounter = 0
 		
     def initUI(self):
 
